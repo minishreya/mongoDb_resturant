@@ -1,0 +1,10 @@
+here db name:resturantDB
+collections:resturant
+json :restaurants.json
+The restaurants.json file can also be found at documents/mongodb-data/04-restaurants
+
+
+
+
+// Remember that the $not operator only affects other operators and cannot check fields and documents independently. So,
+//  use the $not operator for logical disjunctions and the $ne operator to test the contents of fields directly
